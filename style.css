@@ -1,0 +1,103 @@
+*{
+    
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.795), rgba(255, 14, 14, 0.534));
+
+}
+h1{
+    box-sizing: border-box;
+    border: 3px dotted rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  
+}
+
+#Foto{
+    background-color: rgba(83, 83, 83, 0.507);
+    width: 45vw;
+    height: 45vh;
+    position: relative;
+    top: 30px;
+    left: 24%;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    border: 2px solid black;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid red;
+    width: 200px;
+    margin-left: 150px;
+}
+ul{
+    background-color: rgb(83, 83, 83);
+    color: white;
+    display: inline-block;
+}
+p{
+    font-size: 20px;
+    color: white;
+
+    background-color: rgb(83, 83, 83, 0.507);
+    width: 500px;
+    border: 2px solid black;
+}
+code{
+    background-color: rgba(255, 0, 0, 0.473);
+    text-align:right;
+    padding-left: 50px;
+}
+
+.homegames{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 35vw;
+    margin-left: 75px;
+}
+
+.awaygames{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 35vw;
+    margin-left: 75px;
+}
+
+#ich{
+    box-sizing: border-box;
+    margin-top: auto;
+    width: 25vw;
+    height: 65vh;
+    border: 2px solid black;
+    position: relative;
+    left: 400px;
+    top: 300px;
+    
+}
+#klicktext{
+    font-size: 25px;
+    width: 215px;
+    height: 28px;
+    position: relative;
+    left: 44%;
+    top: 5px;
+    background-color: rgba(0, 0, 0, 0.507);
+    
+}
+section{
+    box-sizing: border-box;
+    position: relative;
+    top: -100px;
+    
+}
+
+footer p{
+    width: 100%;
+}
