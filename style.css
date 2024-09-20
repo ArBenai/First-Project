@@ -1,37 +1,50 @@
 *{
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
     background: linear-gradient(45deg, rgba(0, 0, 0, 0.795), rgba(255, 14, 14, 0.534));
 
+}
+header{
+    margin-top: -43px;
+    margin-left: -10px;
+    width: 100vw;
+}
+body{
+    width: 100vw;
+    margin-left: -10px;
 }
 h1{
     box-sizing: border-box;
     border: 3px dotted rgb(0, 0, 0);
     background-color: rgb(255, 0, 0);
     text-align: center;
-    font-size: 45px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
-  
+    font-size: 4em;
+    text-shadow: -2px 1px 3px white,
+                2px -1px 3px white;
 }
-
+main{
+    margin-top: -42px;
+}
 #Foto{
-    background-color: rgba(83, 83, 83, 0.507);
-    width: 45vw;
-    height: 45vh;
     position: relative;
-    top: 30px;
+    top: 40px;
     left: 24%;
+}
+#teamfoto{
+    border: 5px solid black;
+    border-radius: 3%;
 }
 
 h2{
     text-align: center;
     color: white;
-    font-size: 35px;
+    font-size: 2em;
     background-color: rgb(0, 0, 0);
     position: relative;
     border: 2px solid black;
+    text-shadow: 2px 2px red, -2px -2px 2px grey;
 }
 h3{
-    font-size: 30px;
+    font-size: 2em;
     text-align: center;
     border: 1px solid red;
     width: 200px;
@@ -43,7 +56,7 @@ ul{
     display: inline-block;
 }
 p{
-    font-size: 20px;
+    font-size: 1.5em;
     color: white;
 
     background-color: rgb(83, 83, 83, 0.507);
@@ -60,14 +73,16 @@ code{
     box-sizing: border-box;
     border: 2px solid black;
     width: 35vw;
-    margin-left: 75px;
+    margin-left: 100px;
+
 }
 
 .awaygames{
     box-sizing: border-box;
     border: 2px solid black;
     width: 35vw;
-    margin-left: 75px;
+    margin-top: -10px;
+    margin-left: 100px;
 }
 
 #ich{
@@ -75,29 +90,51 @@ code{
     margin-top: auto;
     width: 25vw;
     height: 65vh;
-    border: 2px solid black;
+    border: 3px solid black;
+    border-radius: 5%;
     position: relative;
     left: 400px;
     top: 300px;
     
 }
 #klicktext{
-    font-size: 25px;
-    width: 215px;
-    height: 28px;
+    font-size: 1.2em;
+    width: 170px;
+    height: 25px;
     position: relative;
-    left: 44%;
-    top: 5px;
+    left: 46%;
+    top: 15px;
     background-color: rgba(0, 0, 0, 0.507);
     
 }
 section{
     box-sizing: border-box;
     position: relative;
-    top: -100px;
+    top: -28px;
     
 }
 
 footer p{
     width: 100%;
+}
+.fa-solid{
+    color: yellow;
+    height: 1px;
+}
+#insta{
+    border: none;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 960px;
+}
+#instagram{
+    background-color: inherit;
+    color: white;
+}
+.spielbericht{
+    text-decoration: underline;
+    color: rgba(255, 255, 0, 0.8);
+    background-color: black;
 }
