@@ -1,20 +1,39 @@
-*{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.795), rgba(255, 14, 14, 0.534));
 
+ @-webkit-keyframes color-change-2x {
+    0% {
+      background: rgb(165, 0, 0);
+    }
+    100% {
+      background: rgb(0, 0, 0);
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: rgb(150, 0, 0);
+    }
+    100% {
+      background: rgb(20, 0, 0);
+    }
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    -webkit-animation: color-change-2x 5s linear infinite alternate both;
+    animation: color-change-2x 5s linear infinite alternate both;
 }
+
 header{
-    margin-top: -43px;
-    margin-left: -10px;
+    margin-top: 2rem;
     width: 100vw;
 }
 body{
     width: 100vw;
-    margin-left: -10px;
 }
 h1{
     box-sizing: border-box;
-    border: 3px dotted rgb(0, 0, 0);
     background-color: rgb(255, 0, 0);
     text-align: center;
     font-size: 4em;
@@ -22,25 +41,29 @@ h1{
                 2px -1px 3px white;
 }
 main{
-    margin-top: -42px;
+    margin-top: 1.5rem;
 }
 #Foto{
     position: relative;
-    top: 40px;
+    top: 3rem;
     left: 24%;
 }
 #teamfoto{
     border: 5px solid black;
-    border-radius: 3%;
+    border-radius: 3rem;
+}
+#teamfoto:hover{
+    box-shadow: 5px 5px 20px white, -5px -5px 10px white;
 }
 
 h2{
     text-align: center;
     color: white;
-    font-size: 2em;
+    font-size: 3em;
     background-color: rgb(0, 0, 0);
     position: relative;
-    border: 2px solid black;
+    margin-top: 5rem;
+    text-decoration: underline;
     text-shadow: 2px 2px red, -2px -2px 2px grey;
 }
 h3{
@@ -60,8 +83,12 @@ p{
     color: white;
 
     background-color: rgb(83, 83, 83, 0.507);
-    width: 500px;
-    border: 2px solid black;
+    width: 35rem;
+    border-bottom: 0.5px solid rgb(255, 255, 255);
+
+}
+.zone{
+    border: 0.5px solid rgb(255, 255, 255);
 }
 code{
     background-color: rgba(255, 0, 0, 0.473);
@@ -71,30 +98,30 @@ code{
 
 .homegames{
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1rem;
     width: 35vw;
-    margin-left: 100px;
-
+    margin-left: 7rem;
+    margin-top: 12rem;
 }
 
 .awaygames{
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1rem;
     width: 35vw;
-    margin-top: -10px;
-    margin-left: 100px;
+    margin-left: 7rem;
+    margin-top: 5rem;
 }
 
 #ich{
-    box-sizing: border-box;
-    margin-top: auto;
     width: 25vw;
     height: 65vh;
-    border: 3px solid black;
-    border-radius: 5%;
-    position: relative;
-    left: 400px;
-    top: 300px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 2rem;
+    position: absolute;
+    left: 62vw;
+    top: 10rem;
     
 }
 #klicktext{
@@ -103,15 +130,14 @@ code{
     height: 25px;
     position: relative;
     left: 46%;
-    top: 15px;
+    top: 1rem;
     background-color: rgba(0, 0, 0, 0.507);
     
 }
 section{
     box-sizing: border-box;
     position: relative;
-    top: -28px;
-    
+    margin-top: 1rem;
 }
 
 footer p{
@@ -123,11 +149,9 @@ footer p{
 }
 #insta{
     border: none;
-    width: 0px;
-    height: 0px;
+    font-size: 2rem;
     position: absolute;
-    margin-top: -35px;
-    margin-left: 960px;
+    margin: 1rem 50vw;
 }
 #instagram{
     background-color: inherit;
@@ -137,4 +161,7 @@ footer p{
     text-decoration: underline;
     color: rgba(255, 255, 0, 0.8);
     background-color: black;
+}
+.fa-circle-xmark{
+    color: #ff006a;
 }
