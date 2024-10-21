@@ -154,15 +154,15 @@ iframe{
 /* From Uiverse.io by himanshu9682 */ 
 .type--A {
     --line_color: #555555;
-    --back_color: #ffecf6;
+    --back_color: #ffecf652;
   }
   .type--B {
     --line_color: #1b1919;
-    --back_color: #e9ecff;
+    --back_color: #ffecf652;
   }
   .type--C {
     --line_color: #00135c;
-    --back_color: #defffa;
+    --back_color: #ffecf652;
   }
   .button {
     position: relative;
@@ -429,7 +429,7 @@ iframe{
     }
   }
   
-  .container {
+  .button-con{
     width: 100%;
     height: 300px;
     display: flex;
@@ -437,27 +437,25 @@ iframe{
     justify-content: center;
     align-items: center;
 
-    .button:not(:last-child) {
-    margin-bottom: 64px;
-  } 
+}
+.carusselbild{
+  margin-left: 33vw;
+  border: 1px solid white;
+  border-radius: 2%;
+
 }
 
-.home-posts{
-  .cardtext{
-    font-size: 1.4rem;
-    text-decoration: underline;
-  }
-  .spielbericht{
-    color: white;
-    -webkit-animation: color-change-2x 5s linear infinite alternate both;
-    animation: color-change-2x 5s linear infinite alternate both;
-  }
-  p{
-    width: 10rem;
-    color: black;
-  }
-  h2{
-    margin-top: -1.5rem;
-    margin-bottom: 5rem;
-  }
+h5{
+  width: 20rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-left: 27vw;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+.textschrift{
+  font-size: 1.2rem;
+  width: 30rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-left: 22vw;
+  border-radius: 1rem;
 }
