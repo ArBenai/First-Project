@@ -21,20 +21,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
-    -webkit-animation: color-change-2x 5s linear infinite alternate both;
-    animation: color-change-2x 5s linear infinite alternate both;
+
 }
 
 header{
     margin-top: 2rem;
     width: 100vw;
+    -webkit-animation: color-change-2x 5s linear infinite alternate both;
+    animation: color-change-2x 5s linear infinite alternate both;
 }
 body{
     width: 100vw;
+    -webkit-animation: color-change-2x 5s linear infinite alternate both;
+    animation: color-change-2x 5s linear infinite alternate both;
 }
 h1{
     box-sizing: border-box;
-    background-color: rgb(255, 0, 0);
     text-align: center;
     font-size: 4em;
     text-shadow: -2px 1px 3px white,
@@ -51,6 +53,8 @@ main{
 #teamfoto{
     border: 5px solid black;
     border-radius: 3rem;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
 }
 #teamfoto:hover{
     box-shadow: 5px 5px 20px white, -5px -5px 10px white;
@@ -60,21 +64,12 @@ h2{
     text-align: center;
     color: white;
     font-size: 3em;
-    background-color: rgb(0, 0, 0);
     position: relative;
     margin-top: 7rem;
     text-decoration: underline;
     text-shadow: 2px 2px red, -2px -2px 2px grey;
 }
-h3{
-    font-size: 2em;
-    text-align: center;
-    border: 1px solid red;
-    width: 200px;
-    margin-left: 150px;
-}
 ul{
-    background-color: rgb(83, 83, 83);
     color: white;
     display: inline-block;
 }
@@ -90,11 +85,6 @@ p{
 .zone{
     margin-top: 3rem;
     border: 0.5px solid rgb(255, 255, 255);
-}
-code{
-    background-color: rgba(255, 0, 0, 0.473);
-    text-align:right;
-    padding-left: 50px;
 }
 
 .homegames{
@@ -115,26 +105,6 @@ code{
     margin-top: 5rem;
 }
 
-#ich{
-    width: 25vw;
-    height: 65vh;
-    border: 3px solid #ffffff;
-    border-radius: 2rem;
-    position: absolute;
-    left: 62vw;
-    top: 5rem;
-    
-}
-#klicktext{
-    font-size: 1.2em;
-    width: 170px;
-    height: 25px;
-    position: relative;
-    left: 46%;
-    top: 6rem;
-    background-color: rgba(0, 0, 0, 0.507);
-    
-}
 section{
     box-sizing: border-box;
     position: relative;
@@ -148,30 +118,28 @@ footer p{
     color: yellow;
     height: 1px;
 }
+
 #insta{
     border: none;
-    font-size: 2rem;
+    font-size: 1.4rem;
     position: absolute;
-    margin: 7rem 50vw;
-    width: 2rem;
+    margin: 4.2rem 50.15vw;
+    width: 0rem;
+    height: 0rem;
+    
 }
 #instagram:hover{
-    box-shadow: 5px 5px 20px white, -5px -5px 50px white;
+    box-shadow: 5px 5px 5px red, -5px -5px 5px red;
     border-radius: 50%;
-    font-size: 2.1rem;
+    font-size: 1.6rem;
 }
 #instagram{
-    background-color: inherit;
     color: white;
 }
-.spielbericht{
-    text-decoration: underline;
-    color: rgba(255, 255, 0, 0.8);
-    background-color: black;
-}
+
 .spielbericht:hover{
     text-decoration: underline white;
-    font-size: 1.7rem;
+    font-size: 1.1rem;
 }
 .fa-circle-xmark{
     color: #ff006a;
@@ -468,8 +436,28 @@ iframe{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .button:not(:last-child) {
+
+    .button:not(:last-child) {
     margin-bottom: 64px;
+  } 
+}
+
+.home-posts{
+  .cardtext{
+    font-size: 1.4rem;
+    text-decoration: underline;
   }
-  
+  .spielbericht{
+    color: white;
+    -webkit-animation: color-change-2x 5s linear infinite alternate both;
+    animation: color-change-2x 5s linear infinite alternate both;
+  }
+  p{
+    width: 10rem;
+    color: black;
+  }
+  h2{
+    margin-top: -1.5rem;
+    margin-bottom: 5rem;
+  }
+}
