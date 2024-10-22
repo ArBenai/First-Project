@@ -438,24 +438,28 @@ iframe{
     align-items: center;
 
 }
-.carusselbild{
-  margin-left: 33vw;
-  border: 1px solid white;
-  border-radius: 2%;
+
+#projects{
+  .textunterschrift{
+    font-size: 1rem;
+    width: 16rem;
+    }
+    h3{
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    .btn{
+      -webkit-animation: color-change-2x 5s linear infinite alternate both;
+    animation: color-change-2x 5s linear infinite alternate both;
+    }
+    img{
+      height: 14rem;
+    }
 
 }
-
-h5{
-  width: 20rem;
-  background-color: rgba(0, 0, 0, 0.7);
-  margin-left: 27vw;
-  border-radius: 1rem;
-  font-size: 1.5rem;
-}
-.textschrift{
-  font-size: 1.2rem;
-  width: 30rem;
-  background-color: rgba(0, 0, 0, 0.7);
-  margin-left: 22vw;
-  border-radius: 1rem;
+em{
+  color: white;
+  display: flex;
+  justify-content: end;
+  margin-right: 5rem;
 }
